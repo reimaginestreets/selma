@@ -1,7 +1,7 @@
 // Service worker for Selma's home page: keeps a copy so it opens offline.
 // Network first, so a connected device always gets the latest version.
 
-const CACHE = 'selma-home-v1';
+const CACHE = 'selma-home-v2';
 // This address used to be the mail journal, which kept its offline copy under this name.
 const RETIRED = ['selma-v1'];
 const APP_FILES = [
@@ -9,14 +9,14 @@ const APP_FILES = [
   'index.html',
   'styles.css',
   'app.js',
-  'selma.svg',
+  'selma-home.svg',
   'manifest.webmanifest',
   'icons/mail.svg',
   'icons/time.svg',
   'icons/work.svg',
-  'icons/icon-180.png',
-  'icons/icon-192.png',
-  'icons/icon-512.png',
+  'icons/home-180.png',
+  'icons/home-192.png',
+  'icons/home-512.png',
 ];
 
 self.addEventListener('install', (event) => {
