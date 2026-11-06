@@ -67,7 +67,7 @@ h1 { margin: 0 0 4px; font: 500 48px/1 var(--serif); letter-spacing: -0.01em; }
 
 /* Wider screens: all journals side by side, so nothing needs scrolling */
 @media (min-width: 720px) {
-  .journals { grid-template-columns: repeat(5, 1fr); gap: 14px; }
+  .journals { grid-template-columns: repeat(6, 1fr); gap: 14px; }
   .journal { flex-direction: column; text-align: center; gap: 8px; padding: 20px 12px 16px; }
   .journal .arrow { display: none; }
   .journal.pending .arrow { display: block; }

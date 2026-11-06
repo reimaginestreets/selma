@@ -1,7 +1,7 @@
 // Service worker for Selma's home page: keeps a copy so it opens offline.
 // Network first, so a connected device always gets the latest version.
 
-const CACHE = 'selma-home-v4';
+const CACHE = 'selma-home-v5';
 // This address used to be the mail journal, which kept its offline copy under this name.
 const RETIRED = ['selma-v1'];
 const APP_FILES = [
@@ -16,6 +16,7 @@ const APP_FILES = [
   'icons/work.svg',
   'icons/read.svg',
   'icons/roam.svg',
+  'icons/cook.svg',
   'icons/home-180.png',
   'icons/home-192.png',
   'icons/home-512.png',
